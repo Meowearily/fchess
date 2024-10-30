@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD99B4FC-788C-3B31-83E7-9C7FE088F38D}|Assembly-CSharp.csproj|c:\\users\\kukli\\desktop\\git projects\\fchess\\chess-starter-project\\assets\\scripts\\moveselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD99B4FC-788C-3B31-83E7-9C7FE088F38D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\moveselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "e9153ead-c86a-4047-9396-33f24c056b16",
+        "Display": 0,
+        "X": 65,
+        "Y": 106,
+        "Width": 964,
+        "Height": 628,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MoveSelector.cs",
+              "DocumentMoniker": "C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\MoveSelector.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MoveSelector.cs",
+              "ToolTip": "C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\MoveSelector.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MoveSelector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T17:52:09.517Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

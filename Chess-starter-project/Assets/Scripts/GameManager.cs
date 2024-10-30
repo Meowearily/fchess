@@ -186,4 +186,21 @@ public class GameManager : MonoBehaviour
         pieces[gridPoint.x, gridPoint.y] = piece;
         board.MovePiece(piece, gridPoint);
     }
+
+    public List<Vector2Int> MovesForPiece(GameObject pieceObject)
+    {
+        //получаем компонент игровой фигуры и ее позицию
+        Piece piece = pieceObject.GetComponent<Piece>();
+        Vector2Int gridPoint = GridForPiece(pieceObject);
+        var locations = piece.MoveLocations(gridPoint);
+
+        //фильтр позиций за пределами доски
+        locations.RemoveAll(tile => tile.x < 0 || tile.x > 7
+            || tile.y < 0 || tile.y > 7);
+
+        //фильтр позиций с фигурами игрока
+        locations.RemoveAll(tile => FriendlyPieceAt(tile));
+
+        return locations;
+    }
 }

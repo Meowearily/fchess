@@ -12,6 +12,7 @@ public class MoveSelector : MonoBehaviour
     private GameObject tileHighlight;
     private GameObject movingPiece;
 
+
     //список значений GridPoint
     private List<Vector2Int> moveLocations;
     //список клеток-оверлеев, клеток, доступных для хода
@@ -90,7 +91,10 @@ public class MoveSelector : MonoBehaviour
                     GameManager.instance.Move(movingPiece, gridPoint);
                 }
 
-                ExitState();
+                ExitState(true);
+            } else if (Input.GetMouseButtonDown(1))
+            {
+                ExitState(false);
             }
         }
         else
@@ -100,7 +104,7 @@ public class MoveSelector : MonoBehaviour
     }
 
     //сбрасывает и подготовливает к следующему ходу
-    private void ExitState()
+    private void ExitState(bool nextPlayer)
     {
         this.enabled = false;
         tileHighlight.SetActive(false);
@@ -108,7 +112,10 @@ public class MoveSelector : MonoBehaviour
         movingPiece = null;
         TileSelector selector = GetComponent<TileSelector>();
 
-        GameManager.instance.NextPlayer();
+        if (nextPlayer)
+        {
+            GameManager.instance.NextPlayer();
+        }
 
         selector.EnterState();
 

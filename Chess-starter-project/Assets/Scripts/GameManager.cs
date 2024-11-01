@@ -33,6 +33,9 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    int counterW = 0;
+    int counterB = 0;
+
     public static GameManager instance;
 
     public Board board;
@@ -57,6 +60,8 @@ public class GameManager : MonoBehaviour
     private Player black;
     public Player currentPlayer;
     public Player otherPlayer;
+
+    public UIManager winPanel;
 
     void Awake()
     {
@@ -222,6 +227,17 @@ public class GameManager : MonoBehaviour
 
         if (pieceToCapture.GetComponent<Piece>().type == PieceType.King)
         {
+            winPanel.OnWin(currentPlayer.name);
+            if (currentPlayer.name == "white")
+            {
+                counterW++;
+                winPanel.WinWCounter(counterW);
+            } else if (currentPlayer.name == "black")
+            {
+                counterB++;
+                winPanel.WinBCounter(counterB);
+            }
+            
             Debug.Log(currentPlayer.name + " wins!");
             Destroy(board.GetComponent<TileSelector>());
             Destroy(board.GetComponent<MoveSelector>());

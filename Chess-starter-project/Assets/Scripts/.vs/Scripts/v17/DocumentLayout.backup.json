@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\MoveSelector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MoveSelector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\Pieces\\King.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pieces\\King.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\Pieces\\Pawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pieces\\Pawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\TileSelector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TileSelector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\Pieces\\Piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pieces\\Piece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\Pieces\\Bishop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pieces\\Bishop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\Pieces\\Rook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pieces\\Rook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\Pieces\\Knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pieces\\Knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\Pieces\\Queen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pieces\\Queen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,54 +50,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "GameManager.cs",
-              "ToolTip": "C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\GameManager.cs",
-              "RelativeToolTip": "GameManager.cs",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAiwMwAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Piece.cs",
+              "DocumentMoniker": "C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\Pieces\\Piece.cs",
+              "RelativeDocumentMoniker": "Pieces\\Piece.cs",
+              "ToolTip": "C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\Pieces\\Piece.cs",
+              "RelativeToolTip": "Pieces\\Piece.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T18:01:16.794Z",
+              "WhenOpened": "2024-10-30T21:35:56.803Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "Knight.cs",
+              "DocumentMoniker": "C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\Pieces\\Knight.cs",
+              "RelativeDocumentMoniker": "Pieces\\Knight.cs",
+              "ToolTip": "C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\Pieces\\Knight.cs",
+              "RelativeToolTip": "Pieces\\Knight.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T21:35:44.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "King.cs",
+              "DocumentMoniker": "C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\Pieces\\King.cs",
+              "RelativeDocumentMoniker": "Pieces\\King.cs",
+              "ToolTip": "C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\Pieces\\King.cs",
+              "RelativeToolTip": "Pieces\\King.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAAE4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T21:35:38.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Rook.cs",
+              "DocumentMoniker": "C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\Pieces\\Rook.cs",
+              "RelativeDocumentMoniker": "Pieces\\Rook.cs",
+              "ToolTip": "C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\Pieces\\Rook.cs",
+              "RelativeToolTip": "Pieces\\Rook.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T21:24:35.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Queen.cs",
+              "DocumentMoniker": "C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\Pieces\\Queen.cs",
+              "RelativeDocumentMoniker": "Pieces\\Queen.cs",
+              "ToolTip": "C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\Pieces\\Queen.cs",
+              "RelativeToolTip": "Pieces\\Queen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T20:55:16.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Bishop.cs",
+              "DocumentMoniker": "C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\Pieces\\Bishop.cs",
+              "RelativeDocumentMoniker": "Pieces\\Bishop.cs",
+              "ToolTip": "C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\Pieces\\Bishop.cs",
+              "RelativeToolTip": "Pieces\\Bishop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T20:48:06.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Pawn.cs",
               "DocumentMoniker": "C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\Pieces\\Pawn.cs",
               "RelativeDocumentMoniker": "Pieces\\Pawn.cs",
               "ToolTip": "C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\Pieces\\Pawn.cs",
               "RelativeToolTip": "Pieces\\Pawn.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAAD0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T17:59:43.006Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TileSelector.cs",
-              "DocumentMoniker": "C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\TileSelector.cs",
-              "RelativeDocumentMoniker": "TileSelector.cs",
-              "ToolTip": "C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\TileSelector.cs",
-              "RelativeToolTip": "TileSelector.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADMAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "GameManager.cs",
+              "ToolTip": "C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "GameManager.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAOIAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T17:54:25.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MoveSelector.cs",
-              "DocumentMoniker": "C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\MoveSelector.cs",
-              "RelativeDocumentMoniker": "MoveSelector.cs",
-              "ToolTip": "C:\\Users\\kukli\\Desktop\\git projects\\fchess\\Chess-starter-project\\Assets\\Scripts\\MoveSelector.cs",
-              "RelativeToolTip": "MoveSelector.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAG4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T17:53:47.926Z",
+              "WhenOpened": "2024-10-30T18:01:16.794Z",
               "EditorCaption": ""
             }
           ]

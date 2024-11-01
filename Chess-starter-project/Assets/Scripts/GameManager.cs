@@ -33,8 +33,11 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    int counterW = 0;
-    int counterB = 0;
+    public static int counterW = 0;
+    public static int counterB = 0;
+
+    public int pointW = 0;
+    public int pointB = 0;
 
     public static GameManager instance;
 
@@ -66,6 +69,7 @@ public class GameManager : MonoBehaviour
     void Awake()
     {
         instance = this;
+        
     }
 
     void Start ()
@@ -79,6 +83,9 @@ public class GameManager : MonoBehaviour
         otherPlayer = black;
 
         InitialSetup();
+
+        winPanel.WinWCounter(counterW);
+        winPanel.WinBCounter(counterB);
     }
 
     private void InitialSetup()
@@ -225,6 +232,63 @@ public class GameManager : MonoBehaviour
         currentPlayer.capturedPieces.Add(pieceToCapture);
         pieces[gridPoint.x, gridPoint.y] = null;
 
+        if (pieceToCapture.GetComponent<Piece>().type == PieceType.Pawn)
+        {
+            if (currentPlayer.name == "white")
+            {
+                pointW += 1;
+                winPanel.WinWPoint(pointW);
+            }
+            else if (currentPlayer.name == "black")
+            {
+                pointB += 1;
+                winPanel.WinBPoint(pointB);
+            }
+        }
+
+        if (pieceToCapture.GetComponent<Piece>().type == PieceType.Knight ||
+            pieceToCapture.GetComponent<Piece>().type == PieceType.Bishop)
+        {
+            if (currentPlayer.name == "white")
+            {
+                pointW += 3;
+                winPanel.WinWPoint(pointW);
+            }
+            else if (currentPlayer.name == "black")
+            {
+                pointB += 3;
+                winPanel.WinBPoint(pointB);
+            }
+        }
+
+        if (pieceToCapture.GetComponent<Piece>().type == PieceType.Rook)
+        {
+            if (currentPlayer.name == "white")
+            {
+                pointW += 5;
+                winPanel.WinWPoint(pointW);
+            }
+            else if (currentPlayer.name == "black")
+            {
+                pointB += 5;
+                winPanel.WinBPoint(pointB);
+            }
+        }
+
+        if (pieceToCapture.GetComponent<Piece>().type == PieceType.Queen)
+        {
+            if (currentPlayer.name == "white")
+            {
+                pointW += 9;
+                winPanel.WinWPoint(pointW);
+            }
+            else if (currentPlayer.name == "black")
+            {
+                pointB += 9;
+                winPanel.WinBPoint(pointB);
+            }
+        }
+
         if (pieceToCapture.GetComponent<Piece>().type == PieceType.King)
         {
             winPanel.OnWin(currentPlayer.name);
@@ -232,12 +296,13 @@ public class GameManager : MonoBehaviour
             {
                 counterW++;
                 winPanel.WinWCounter(counterW);
-            } else if (currentPlayer.name == "black")
+            }
+            else if (currentPlayer.name == "black")
             {
                 counterB++;
                 winPanel.WinBCounter(counterB);
             }
-            
+
             Debug.Log(currentPlayer.name + " wins!");
             Destroy(board.GetComponent<TileSelector>());
             Destroy(board.GetComponent<MoveSelector>());

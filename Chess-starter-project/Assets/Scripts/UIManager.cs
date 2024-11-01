@@ -10,10 +10,20 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI winText;
     public TextMeshProUGUI winWhite;
     public TextMeshProUGUI winBlack;
+    public TextMeshProUGUI pointWhite;
+    public TextMeshProUGUI pointBlack;
 
     public void OnRestartPress()
     {
+        //Debug.Log(GameManager.instance.counterW);
+        //int counterW = GameManager.instance.counterW;
+        //int counterB = GameManager.instance.counterB;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        //GameManager.instance.counterW = counterW;
+        //GameManager.instance.counterB = counterB;
+        //WinWCounter(counterW);
+        //WinBCounter(counterB);
+        //Debug.Log(GameManager.instance.counterW);
     }
 
     public void OnWin(string playerName)
@@ -35,5 +45,15 @@ public class UIManager : MonoBehaviour
     public void WinBCounter(int counter)
     {
         winBlack.text = counter.ToString();
+    }
+
+    public void WinWPoint(int counter)
+    {
+        pointWhite.text = counter.ToString();
+    }
+
+    public void WinBPoint(int counter)
+    {
+        pointBlack.text = counter.ToString();
     }
 }
